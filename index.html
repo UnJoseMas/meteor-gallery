@@ -1,46 +1,161 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>METEOR Satellite Ground Station</title>
+<meta name="viewport"
+ content="width=device-width, initial-scale=1">
+<title>METEOR Ground Station</title>
 <style>
 body {
-  background: #0b1524;
-  color: white;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  margin: 0;
-  padding: 25px;
+  background:#0b1524;
+  color:white;
+  font-family:Arial,sans-serif;
+  text-align:center;
+  margin:0;
+  padding:25px;
 }
-h1 { color: #5ac8fa; }
+h1 { color:#5ac8fa; }
 .gallery {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 20px;
-  max-width: 1200px;
-  margin: 30px auto;
+  display:grid;
+  grid-template-columns:
+    repeat(auto-fit,minmax(280px,1fr));
+  gap:20px;
+  max-width:1200px;
+  margin:30px auto;
 }
-.gallery img {
-  width: 100%;
-  border-radius: 10px;
+article {
+  background:#17263a;
+  border-radius:12px;
+  padding:15px;
 }
+img {
+  width:100%;
+  height:350px;
+  object-fit:contain;
+}
+small { color:#aabbd0; }
 </style>
 </head>
 <body>
-
 <h1>🛰️ METEOR Ground Station</h1>
 <p>Raspberry Pi 4B + RTL-SDR Blog V4</p>
-<p>Automatic Weather Satellite Reception</p>
-<p>Minimum Pass Elevation: 50°</p>
-
-<h2>Latest Satellite Images</h2>
-
+<p>Captura automática de imágenes satelitales</p>
+<p>Elevación máxima mínima: 50°</p>
+<h2>Últimas imágenes recibidas</h2>
 <div class="gallery">
-  <p>Waiting for the first METEOR satellite image...</p>
-</div>
 
+    <article>
+      <a href="images/a23d09e33b8eb147.jpg">
+        <img src="images/a23d09e33b8eb147.jpg" loading="lazy">
+      </a>
+      <p>msu_mr_rgb_MCIR_corrected_map.png</p>
+      <small>2026-10-18 15:14</small>
+    </article>
+    
+    <article>
+      <a href="images/dcdbb0da4e511ea5.jpg">
+        <img src="images/dcdbb0da4e511ea5.jpg" loading="lazy">
+      </a>
+      <p>msu_mr_rgb_MCIR_map.png</p>
+      <small>2026-10-18 15:14</small>
+    </article>
+    
+    <article>
+      <a href="images/bc41876b6911bc78.jpg">
+        <img src="images/bc41876b6911bc78.jpg" loading="lazy">
+      </a>
+      <p>msu_mr_rgb_MCIR.png</p>
+      <small>2026-10-18 15:14</small>
+    </article>
+    
+    <article>
+      <a href="images/180ab89a7d82f09f.jpg">
+        <img src="images/180ab89a7d82f09f.jpg" loading="lazy">
+      </a>
+      <p>msu_mr_rgb_MCIR_corrected.png</p>
+      <small>2026-10-18 15:14</small>
+    </article>
+    
+    <article>
+      <a href="images/1b9c0b53bfd74f7f.jpg">
+        <img src="images/1b9c0b53bfd74f7f.jpg" loading="lazy">
+      </a>
+      <p>msu_mr_rgb_MSU-MR_124_False_Color.png</p>
+      <small>2026-10-18 15:14</small>
+    </article>
+    
+    <article>
+      <a href="images/665ea0db5f40c0d4.jpg">
+        <img src="images/665ea0db5f40c0d4.jpg" loading="lazy">
+      </a>
+      <p>msu_mr_rgb_MSU-MR_124_False_Color_corrected.png</p>
+      <small>2026-10-18 15:14</small>
+    </article>
+    
+    <article>
+      <a href="images/2aab2c396f6faafc.jpg">
+        <img src="images/2aab2c396f6faafc.jpg" loading="lazy">
+      </a>
+      <p>msu_mr_rgb_AVHRR_221_False_Color.png</p>
+      <small>2026-10-18 15:14</small>
+    </article>
+    
+    <article>
+      <a href="images/313e615f175d5cfe.jpg">
+        <img src="images/313e615f175d5cfe.jpg" loading="lazy">
+      </a>
+      <p>msu_mr_rgb_AVHRR_221_False_Color_corrected.png</p>
+      <small>2026-10-18 15:14</small>
+    </article>
+    
+    <article>
+      <a href="images/9bd48f2e0db172dc.jpg">
+        <img src="images/9bd48f2e0db172dc.jpg" loading="lazy">
+      </a>
+      <p>MSU-MR-4.png</p>
+      <small>2026-10-18 15:13</small>
+    </article>
+    
+    <article>
+      <a href="images/c8b5ed312973f774.jpg">
+        <img src="images/c8b5ed312973f774.jpg" loading="lazy">
+      </a>
+      <p>MSU-MR-1.png</p>
+      <small>2026-10-18 15:13</small>
+    </article>
+    
+    <article>
+      <a href="images/a7e8898ac02aff63.jpg">
+        <img src="images/a7e8898ac02aff63.jpg" loading="lazy">
+      </a>
+      <p>MSU-MR-2.png</p>
+      <small>2026-10-18 15:13</small>
+    </article>
+    
+    <article>
+      <a href="images/0a4aa0a833368e02.jpg">
+        <img src="images/0a4aa0a833368e02.jpg" loading="lazy">
+      </a>
+      <p>MSU-MR-4.png</p>
+      <small>2026-10-18 15:13</small>
+    </article>
+    
+    <article>
+      <a href="images/15c93e03adf2b1d4.jpg">
+        <img src="images/15c93e03adf2b1d4.jpg" loading="lazy">
+      </a>
+      <p>MSU-MR-2.png</p>
+      <small>2026-10-18 15:13</small>
+    </article>
+    
+    <article>
+      <a href="images/532bce90a094bdbb.jpg">
+        <img src="images/532bce90a094bdbb.jpg" loading="lazy">
+      </a>
+      <p>MSU-MR-1.png</p>
+      <small>2026-10-18 15:13</small>
+    </article>
+    
+</div>
 </body>
 </html>
-
